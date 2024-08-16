@@ -1,4 +1,4 @@
- Task Management Project
+###  Task Management Project
 
 This project is a **Task Management API** built with **Node.js** and **Express.js**, using **SQLite** as the database. It features **user authentication** and **role-based authorization** implemented with **JWT** (JSON Web Token). The entire project is built **without using any ORM**, and all database operations are done through raw SQL queries.
 
@@ -32,7 +32,9 @@ This project is a **Task Management API** built with **Node.js** and **Express.j
 
 ## Installation
 
-1. cd task-manager-app
+1. git clone https://github.com/aliahmadmaster/task_manager_app.git
+
+1. cd task_manager_app
 
 2. npm install
 
@@ -42,12 +44,12 @@ This project is a **Task Management API** built with **Node.js** and **Express.j
 
 ## Project Structure
 
-├── db                 # All the core logic and creation of bd tables and insertion of the users.
-├── controllers        # Contains user and task controller logic
-├── middleware         # Middleware for authentication and authorization
-├── models             # Contains models with database logic (User, Task)
-├── routes             # Defines routes for user and task operations
-├── validators         # Input validation logic for request bodies and query parameters
+├── db                 
+├── controllers        
+├── middleware        
+├── models             
+├── routes             
+├── validators 
 └── app.js      
 
 
