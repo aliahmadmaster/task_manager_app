@@ -38,9 +38,9 @@ This project is a **Task Management API** built with **Node.js** and **Express.j
 
 2. npm install
 
-3. npm run start
+3. npm run start    
 
-4. npm run start:dev    # for Development 
+4. npm run start:dev    **for Development** 
 
 ## Project Structure
 
