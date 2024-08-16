@@ -1,4 +1,4 @@
-###  Task Management Project
+#  Task Management Project
 
 This project is a **Task Management API** built with **Node.js** and **Express.js**, using **SQLite** as the database. It features **user authentication** and **role-based authorization** implemented with **JWT** (JSON Web Token). The entire project is built **without using any ORM**, and all database operations are done through raw SQL queries.
 
